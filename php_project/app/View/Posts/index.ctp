@@ -1,5 +1,11 @@
 <?php echo $this->Html->script('study'); ?>
 <?php echo $this->Html->link('study_link', '#', array('id' => 'study_link_id')); ?>
+<?php echo $this->Form->label('study_label_for', 'study_label_text', array('style' => 'display: none')); ?>
+<?php echo $this->Form->hidden('study_hidden' ,array('value' => 'study_hidden_value')); ?>
+<?php //echo $this->Html->css('study'); ?>
+
+
+
 <div class="posts index">
 	<h2><?php echo __('Posts'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
